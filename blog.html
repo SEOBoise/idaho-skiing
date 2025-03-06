@@ -1,157 +1,568 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="author" content="" />
-        <title>Idaho Skiing</title>
-        <meta name="description"
-              content=""/>
-        <link rel="icon" href="" type="image/x-icon" />
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-         <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Simple line icons-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+<html lang="en">
 
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="home/css/quill.core.css" rel="stylesheet" />
-        <link href="article/css/styles.css" rel="stylesheet" />
-        <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
-  
-          <style>
-          h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
-          font-weight: 500 !important;
-          }
-           h3 {
-          font-size: 24px !important;
-          }
-          p{
-          margin-bottom: 28px !important;
-          }
-        .bg-header {
-          --bs-bg-opacity: 1;
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Blog</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
-          background-image: linear-gradient(rgba(0, 0, 0, 0.6),#000000) !important;
-    }
-        .bg-footer {
-          --bs-bg-opacity: 1;
-         background-image: linear-gradient(#000000,#000000) !important;
-        }
-        .header-text-color{
-            color: #ffffff !important;
-        }
-        .footer-text-color{
-            color: #ffffff !important;
-        }
-         .footer-text-color .navbar-brand{
-        color: #ffffff !important;
-        }
-</style>
-    </head>
-    <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top bg-header">
-            <div class="container">
-                <a style="color: inherit; text-decoration: inherit;" href="https://idaho-skiing.com">
-                <span class="navbar-brand" ><img style="max-height:30px; height: 30px !important; display: none " src="" onerror="this.remove()"></span>
-                <span class="navbar-brand header-text-color">Idaho Skiing</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="display: none">
-                       <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-facebook"></i></a></li>
-                       <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-twitter"></i></a></li>
-                        <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a></li>
-                        <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a></li>
-                        <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <header class=" border-bottom " style="margin-top:65px;display: none">
-            <div class="container ql-editor" id="sitewide-header" >
-                  
-            </div>
-        </header>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-        <div class="col-lg-12 py-lg-2">
-                    <h3 class="font-weight-light">Idaho Skiing: Latest Blog Posts</h3>
-                </div>
-        <div class="clearfix"></div>
-        <br>
-        <br>
-        <div class="container px-5">
-        <div style="padding-left: 5.5rem;">
-            
-            </div>
-        </div>
-        <div class="py-5 bg-gray-200 text-muted">
-            <div class="container">
-                <div class="row">
-                      <div class="col-lg-8 mb-5 mb-lg-0">
-                       <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
-                        <a href="terms.html">Terms of Use</a> | <a href="privacy.html">Privacy Policy</a>
-                       </div>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus:wght@400&display=swap" rel="stylesheet">
 
-                        <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
-                        
-                        </div>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
-                    </div>
-                    <div class="col-lg-4">
-                       <h6 style=" display: inherit" class="text-uppercase text-dark mb-3">
-                        <a href="sitemap.html">Sitemap</a> | <a href="contact.html">Contact Idaho Skiing</a>
-                        </h6>
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-                       <h6 style=" display: inherit" class="text-uppercase text-dark mb-3">
-                        
-                        </h6>
+  <!-- =======================================================
+  * Template Name: AgriCulture
+  * Template URL: https://bootstrapmade.com/agriculture-bootstrap-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer-->
-       <footer class="py-5 bg-footer text-center footer-text-color">
-        <div class="container mb-4 ql-editor" id="sitewide-footer" style="display:none">
-                
-        </div>
-            <div class="container mb-4">
-            <a href="https://idaho-skiing.com" style="text-decoration: none;">
-            <p class="m-0 text-center ">
-            <span class="navbar-brand" ><img style="max-height:30px; height: 30px !important; display: none " src="" onerror="this.remove()"></span>
-                <span class="navbar-brand">Idaho Skiing</span>
-            </p>
-            </a>
-            </div>
-           <ul class="list-inline mb-4" style="display: none">
-                <li class="list-inline-item" style="display: none">
-                    <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-facebook"></i></a>
-                </li>
-                <li class="list-inline-item"  style="display: none">
-                    <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-twitter"></i></a>
-                </li>
-                <li class="list-inline-item"  style="display: none">
-                    <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a>
-                </li>
-                <li class="list-inline-item"  style="display: none">
-                    <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a>
-                </li>
-                <li class="list-inline-item"  style="display: none">
-                    <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a>
-                </li>
+<body class="blog-page">
+
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="https://idaho-skiing.com/" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.webp">
+        <!-- <h1 class="sitename">AgriCulture</h1>  -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="https://idaho-skiing.com/" >Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          
+          
+          
+          <li class="dropdown"><a href="#"><span>Best Ski Resorts</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="tamarack-resort.html">Tamarack Resort</a></li>
+              <li><a href="brundage-mountain.html">Brundage Mountain</a></li>
+              <li><a href="sun-valley.html">Sun Valley</a></li>
+			  <li><a href="bogus-basin.html">Bogus Basin</a></li>
             </ul>
-            <div class="container"><p class="m-0 text-center">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Idaho Skiing. All rights reserved.</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+          </li>
+		  <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.png);">
+      <div class="container position-relative">
+        <h1>Blog</h1>
+        <p>
+          Home
+          /
+          Blog</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Blog</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Blog Posts 2 Section -->
+    <section id="blog-posts-2" class="blog-posts-2 section">
+
+      <div class="container">
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_1.png" class="img-fluid" alt="">
+              </div>
+
+              
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Does Tamarack Ski Resort Have Good Snowboarding?</h3>
+                <a href="does-tamarack-ski-resort-have-good-snowboarding.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_2.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">How High Is Tamarack Ski Resort?</h3>
+                <a href="how-high-is-tamarack-ski-resort.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_3.png" class="img-fluid" alt="">
+              </div>
+             
+
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">Is Tamarack Ski Resort Good For Beginners?</h3>
+                <a href="is-tamarack-ski-resort-good-for-beginners.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_4.png" class="img-fluid" alt="">
+              </div>
+           
+
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">How Many Ski Lifts Does Tamarack Resort Have?</h3>
+                <a href="how-many-ski-lifts-does-tamarack-resort-have.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_5.png" class="img-fluid" alt="">
+              </div>
+
+             
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Is Tamarack Hard To Ski?</h3>
+                <a href="is-tamarack-hard-to-ski.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_6.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Who Owns Tamarack Ski Resort?</h3>
+                <a href="who-owns-tamarack-ski-resort.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+		  
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_7.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">How Many Slopes Does Tamarack Ski Resort Have?</h3>
+                <a href="how-many-slopes-does-tamarack-ski-resort-have.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_8.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">How Far is Tamarack Ski Resort From Boise Airport?</h3>
+                <a href="now-far-is-tamarack-ski-resort-from-boise-airport.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_9.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Is Bogus Basin Ski Resort Publicly Owned?</h3>
+                <a href="is-bogus-basin-ski-resort-publicly-owned.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_10.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">How Big Is Tamarack Resort?</h3>
+                <a href="how-big-is-tamarack-resort.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_11.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Why Is Tamarack Ski Resort The Best Skiing In Idaho?</h3>
+                <a href="why-is-tamarack-ski-resort-the-best-skiing-in-idaho.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_12.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">How much does a ski trip cost per person?</h3>
+                <a href="how-much-does-a-ski-trip-cost-per-person.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_13.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">How do I plan a ski trip with my family?</h3>
+                <a href="how-do-i-plan-a-ski-trip-with-my-family.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_14.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Where is the cheapest country to learn skiing?</h3>
+                <a href="where-is-the-cheapest-country-to-learn-skiing.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_15.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">How do people afford ski trips?</h3>
+                <a href="how-do-people-afford-ski-trips.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_16.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">How much does an average ski resort cost?</h3>
+                <a href="how-much-does-an-average-ski-resort-cost.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_17.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">How do people afford to ski with family?</h3>
+                <a href="how-do-people-afford-to-ski-with-family.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_18.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">How do people afford to go skiing?</h3>
+                <a href="how-do-people-afford-to-go-skiing.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_19.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">How to book an affordable ski trip?</h3>
+                <a href="how-to-book-an-affordable-ski-trip.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog_20.png" class="img-fluid" alt="">
+              </div>
+
+            
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">What ski pass is good at Sun Valley?</h3>
+                <a href="what-ski-pass-is-good-at-sun-valley.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+  	  
+
+        </div>
+      </div>
+
+    </section><!-- /Blog Posts 2 Section -->
+
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="https://idaho-skiing.com/" class="logo d-flex align-items-center">
+              <span class="sitename">Idaho Skiing</span>
+            </a>
+			<img src="assets/img/footer-logo.webp" />
+            <div class="footer-contact pt-3">
+              
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Pages</h4>
+            <ul>
+              <li><a href="https://idaho-skiing.com/">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+			  <li><a href="blog.html">Blog</a></li>
+			  <li><a href="contact.html">Contact us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Best Ski Resorts</h4>
+            <ul>
+              <li><a href="tamarack-resort.html">Tamarack Resort</a></li>
+              <li><a href="brundage-mountain.html">Brundage Mountain</a></li>
+              <li><a href="sun-valley.html">Sun Valley</a></li>
+			  <li><a href="bogus-basin.html">Bogus Basin</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Usefull Links</h4>
+            <ul>
+              <li><a href="privacy-policy.html">Privacy policy</a></li>
+              <li><a href="terms.html">Terms of Use</a></li>
+              <li><a href="sitemap.html">Sitemap</a></li>
+              
+            </ul>
+          </div>
+
+          
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            © Copyright 2025<strong><span>Idaho Skiing</span></strong>. All Rights Reserved
+          </div>
+         
+        </div>
+
+       
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>

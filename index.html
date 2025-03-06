@@ -1,1139 +1,394 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="author" content="" />
-    <title>Idaho Skiing</title>
-    <meta name="description"
-          content=""/>
-    <link rel="icon" href="" type="image/x-icon" />
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Simple line icons-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Idaho Skiing</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="home/css/quill.core.css" rel="stylesheet" />
-    <link href="home/css/styles.css" rel="stylesheet" />
-    
-    <style>
-        .bg-header {
-            --bs-bg-opacity: 1;
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6),#000000) !important;
-        }
-        .bg-footer {
-            --bs-bg-opacity: 1;
-        background-image: linear-gradient(#000000,#000000) !important;
-        }
-        .header-text-color{
-        color: #ffffff !important;
-        }
-        .footer-text-color .navbar-brand{
-        color: #ffffff !important;
-        } .footer-text-color{
-        color: #ffffff !important;
-        }
-        section:nth-child(even) .order-lg-2{
-            order: 0 !important;
-        }
-        h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
-            font-weight: 500 !important;
-        }
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus:wght@400&display=swap" rel="stylesheet">
 
-    </style>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: AgriCulture
+  * Template URL: https://bootstrapmade.com/agriculture-bootstrap-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body>
-<!-- Responsive navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top bg-header">
-    <div class="container px-5">
-        <a style="color: inherit; text-decoration: inherit;" href="https://idaho-skiing.com">
-            <span class="navbar-brand"><img style="max-height:30px; height: 30px !important; display: none " src="" onerror="this.remove()"></span>
-            <span class="navbar-brand header-text-color">Idaho Skiing</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="display: none">
-                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-facebook"></i></a></li>
-                <li class="nav-item"  style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-twitter"></i></a></li>
-                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a></li>
-                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a></li>
-                <li class="nav-item" style="display: none"><a class="nav-link header-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a></li>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="https://idaho-skiing.com/" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.webp">
+        <!-- <h1 class="sitename">AgriCulture</h1>  -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="https://idaho-skiing.com/" class="active">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          
+          
+          
+          <li class="dropdown"><a href="#"><span>Best Ski Resorts</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="tamarack-resort.html">Tamarack Resort</a></li>
+              <li><a href="brundage-mountain.html">Brundage Mountain</a></li>
+              <li><a href="sun-valley.html">Sun Valley</a></li>
+			  <li><a href="bogus-basin.html">Bogus Basin</a></li>
             </ul>
-        </div>
+          </li>
+		  <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
     </div>
-</nav>
-<!-- Header-->
-<header class=" border-bottom " style="margin-top:65px;display: none">
-    <div class="container ql-editor" id="sitewide-header" >
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <div class="carousel-item active">
+          <img src="assets/img/hero_6.png" alt="">
+          <div class="carousel-container">
+            <h2>Best Ski Resorts</h2>
+            <p>Idaho-Skiing.com is a dedicated platform offering comprehensive information about skiing and snowboarding in Idaho. The website features detailed articles on various ski resorts, with a particular emphasis on Tamarack Ski Resort. </p>
+          </div>
+        </div><!-- End Carousel Item -->
+
+
+       
+
+        <ol class="carousel-indicators"></ol>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2 style="font-size:35px;">Best Ski Resorts</h2>
         
-    </div>
-</header>
-<!-- Header-->
-<header class="masthead text-center text-white">
-    <div class="masthead-content">
-        <div class="container px-5">
-            <h3 class="masthead-subheading mb-0">Idaho Skiing</h3>
+      </div><!-- End Section Title -->
+      <div class="content">
+        <div class="container">
+          <div class="row g-0">
+            <div class="col-lg-3 col-md-6">
+              <div class="service-item">
+                <span class="number">01</span>
+                
+                <div class="service-item-content">
+                  <h3 class="service-heading">Tamarack Resort</h3>
+                  <p>
+                    Gravida sodales condimentum pellen tesq accumsan orci quam
+                    sagittis sapie
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="service-item">
+                <span class="number">02</span>
+                
+                <div class="service-item-content">
+                  <h3 class="service-heading">Brundage Mountain</h3>
+                  <p>
+                    Gravida sodales condimentum pellen tesq accumsan orci quam
+                    sagittis sapie
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="service-item">
+                <span class="number">03</span>
+               
+                <div class="service-item-content">
+                  <h3 class="service-heading">Sun Valley</h3>
+                  <p>
+                    Gravida sodales condimentum pellen tesq accumsan orci quam
+                    sagittis sapie
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="service-item">
+                <span class="number">04</span>
+                
+                <div class="service-item-content">
+                  <h3 class="service-heading">Bogus Basin</h3>
+                  <p>
+                    Gravida sodales condimentum pellen tesq accumsan orci quam
+                    sagittis sapie
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            
+            
+           
+          </div>
+        </div>
+      </div>
+    </section><!-- /Services Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+              <img src="assets/img/img_long_9.png" alt="Image " class="img-fluid img-overlap" data-aos="zoom-out">
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              
+              <h2 class="content-title mb-4">
+                Why Idaho is Quickly Becoming the Top Ski Destination in the USA
+
+              </h2>
+              <p>
+              Idaho, a state long known for its stunning landscapes and outdoor adventures, is now rapidly rising as one of the premier ski destinations in the United States. Offering a combination of pristine snow, diverse terrains, and less crowded slopes, Idaho provides an experience like no other. With renowned resorts like Tamarack Resort, Brundage Mountain, Sun Valley, and Bogus Basin, the state is attracting top-tier skiers and snowboarders from all over the world.</br>
+              </p>
+              <h2 class="content-title mb-4">1. Unmatched Snow Quality</h2>
+			  <p>Idaho is blessed with consistent and abundant snowfall, ensuring fantastic ski conditions throughout the season. The snow quality at Idaho's resorts is particularly notable—light, dry, and powdery. This is due to Idaho’s geographic location, which positions it perfectly in the path of moisture-rich storms from the Pacific, giving the ski resorts incredible snow conditions, perfect for skiing and snowboarding.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- About 3 Section -->
+    <section id="about-3" class="about-3 section">
+
+      <div class="container">
+        <div class="row gy-4 justify-content-between align-items-center">
+          <div class="col-lg-6 order-lg-2 position-relative" data-aos="zoom-out">
+            <img src="assets/img/img_sq_1.png" alt="Image" class="img-fluid">
+           
+          </div>
+          <div class="col-lg-5 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="content-title mb-4">2. Varied Terrain for All Levels</h2>
+            <p class="mb-4">
+             Whether you’re a beginner or an advanced skier, Idaho’s ski resorts offer something for everyone. Tamarack Resort is known for its impressive variety of slopes catering to all levels of skiers. Brundage Mountain boasts expansive terrains with numerous runs for experts, making it an ideal destination for seasoned skiers looking for a challenge. For beginners, Sun Valley provides accessible slopes and beginner-friendly areas to learn in a less intimidating environment. This range of options across the state means there’s always something to suit your skill level.
+            </p>
+            
+			<h2 class="content-title mb-4">3. Less Crowded, More Freedom</h2>
+            <p class="mb-4">
+             One of the biggest advantages of skiing in Idaho is the lack of long lift lines and overcrowded slopes. Unlike major ski destinations like Aspen or Park City, Idaho offers a more intimate and relaxed experience. Skiers and snowboarders can enjoy the slopes without the chaos of crowded resorts, giving them more time to enjoy the snow. This added freedom of movement makes for a far more enjoyable and serene experience on the mountain.
+            </p>
+
+            
+          </div>
+        </div>
+      </div>
+    </section><!-- /About 3 Section -->
+
+ 
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="content">
+        <div class="container">
+          <div class="row">
+           
+            <div class="col-lg-12 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              
+              <h2 class="content-title mb-4">
+               4. Excellent Resort Infrastructure and Amenities
+
+              </h2>
+              <p>
+              Idaho's ski resorts are equipped with top-notch facilities and modern lift systems to ensure an efficient and comfortable skiing experience. Tamarack Resort offers over 2,700 acres of terrain, with state-of-the-art lifts to easily transport guests across its expansive grounds. Similarly, Sun Valley boasts not only world-class slopes but also high-end accommodations, après-ski amenities, and vibrant village life.
+              </p>
+              <h2 class="content-title mb-4">5. Year-Round Outdoor Adventure</h2>
+			  <p>While Idaho is rapidly gaining fame as a ski destination, it also offers a range of other outdoor activities. Hiking, mountain biking, and fishing are all popular in the summer months, making Idaho a great year-round destination. This versatility means that visitors can experience the beauty of Idaho in any season, whether they prefer the thrill of winter sports or the calm of summer outdoor adventures.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+ 
+     <!-- About 3 Section -->
+    <section id="about-3" class="about-3 section">
+
+      <div class="container">
+        <div class="row gy-4 justify-content-between align-items-center">
+          <div class="col-lg-6 order-lg-2 position-relative" data-aos="zoom-out">
+            <img src="assets/img/img_sq_2.png" alt="Image" class="img-fluid">
+            
+          </div>
+          <div class="col-lg-5 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="content-title mb-4">6. A Rich Skiing History and Local Culture</h2>
+            <p class="mb-4">
+             Idaho is also home to a rich skiing history. Sun Valley, for instance, was the first destination ski resort in North America, setting the stage for future ski destinations across the country. This legacy, combined with Idaho’s small-town charm, creates a unique, local experience that’s different from many of the commercialized ski resorts elsewhere.
+            </p>
+            
+			<h2 class="content-title mb-4">7. Affordable Skiing</h2>
+            <p class="mb-4">
+             Compared to other major ski destinations in the USA, Idaho offers skiing at a much more affordable price. Lift tickets, accommodations, and food prices are typically lower, making Idaho a budget-friendly alternative for ski enthusiasts who want to experience top-quality skiing without breaking the bank.
+            </p>
+
+            
+          </div>
+        </div>
+      </div>
+    </section><!-- /About 3 Section -->
+ 
+ 
+     <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="content">
+        <div class="container">
+          <div class="row">
+           
+            <div class="col-lg-12 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              
+              <h2 class="content-title mb-4">
+              8. Exceptional Snowboarding Opportunities
+
+              </h2>
+              <p>
+              In addition to skiing, Idaho offers some of the best snowboarding terrain in the United States. Tamarack and Brundage Mountain are especially known for their superb terrain parks and wide open runs, perfect for those looking to perform tricks or enjoy fresh powder.              </p>
+              <h2 class="content-title mb-4">Conclusion</h2>
+			  <p>Idaho is fast becoming the USA's go-to destination for skiing and snowboarding enthusiasts, thanks to its unbeatable snow quality, diverse terrains, and welcoming atmosphere. Whether you are seeking peaceful runs, an adrenaline-packed challenge, or a laid-back vacation, the Gem State has something special to offer every skier and snowboarder. From Tamarack Resort’s expansive acres to the iconic slopes of Sun Valley, Idaho’s ski resorts provide an unforgettable winter experience. If you’re looking for an authentic, exciting, and affordable ski adventure, Idaho should be your next destination.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+
+
+   
+
+
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="https://idaho-skiing.com/" class="logo d-flex align-items-center">
+              <span class="sitename">Idaho Skiing</span>
+            </a>
+			<img src="assets/img/footer-logo.webp" />
+            <div class="footer-contact pt-3">
+              
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Pages</h4>
+            <ul>
+              <li><a href="https://idaho-skiing.com/">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+			  <li><a href="blog.html">Blog</a></li>
+			  <li><a href="contact.html">Contact us</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Best Ski Resorts</h4>
+            <ul>
+              <li><a href="tamarack-resort.html">Tamarack Resort</a></li>
+              <li><a href="brundage-mountain.html">Brundage Mountain</a></li>
+              <li><a href="sun-valley.html">Sun Valley</a></li>
+			  <li><a href="bogus-basin.html">Bogus Basin</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Usefull Links</h4>
+            <ul>
+              <li><a href="privacy-policy.html">Privacy policy</a></li>
+              <li><a href="terms.html">Terms of Use</a></li>
+              <li><a href="sitemap.html">Sitemap</a></li>
+              
+            </ul>
+          </div>
+
+          
 
         </div>
+      </div>
     </div>
-    <div class="bg-circle-1 bg-circle"></div>
-    <div class="bg-circle-2 bg-circle"></div>
-    <div class="bg-circle-3 bg-circle"></div>
-    <div class="bg-circle-4 bg-circle"></div>
-</header>
-<header class=" border-bottom " style="margin-top:65px;display: none">
-    <div class="container ql-editor">
-        
-    </div>
-</header>
 
-<section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="image_not_found.jpg?key=fDJ501" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Does Tamarack Ski Resort Have Good Snowboarding?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Tamarack Ski Resort is a hidden gem for snowboarders seeking an unforgettable winter adventure. Nestled in the stunning mountains of Idaho, this resort offers a unique experience that is unmatched by other popular destinations. With its pristine slop...</p>
-                            <a class="btn btn-primary" target="_blank" href="does-tamarack-ski-resort-have-good-snowboarding.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="image_not_found.jpg?key=43JKdm" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How High Is Tamarack Ski Resort?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Tucked away in the scenic Sawtooth Mountains of Idaho, Tamarack Ski Resort stands tall with its impressive elevation. At a peak elevation of over 7,700 feet, this mountain paradise offers a truly exhilarating skiing and snowboarding experience. With ...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-high-is-tamarack-ski-resort.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="image_not_found.jpg?key=86j9BF" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Is Tamarack Ski Resort Good For Beginners?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Tamarack Ski Resort offers a truly remarkable experience for beginners looking to hit the slopes. With its stunning natural beauty and impeccable snow conditions, this resort is an ideal paradise for those just starting their skiing journey. The reso...</p>
-                            <a class="btn btn-primary" target="_blank" href="is-tamarack-ski-resort-good-for-beginners.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="image_not_found.jpg?key=zknX0D" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How Many Ski Lifts Does Tamarack Resort Have?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Tamarack Resort boasts an impressive ski lift infrastructure that serves as the backbone of the resort's skiing experience. With a careful layout designed to maximize accessibility and convenience, Tamarack's lift system ensures that visitors can eas...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-many-ski-lifts-does-tamarack-resort-have.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="image_not_found.jpg?key=hMbmEA" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Is Tamarack Hard To Ski?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Tamarack Ski Resort offers an array of terrain that caters to skiers of all levels. From gentle beginner slopes to challenging expert runs, there is something for everyone to enjoy. The resort's terrain is characterized by its stunning mountain vista...</p>
-                            <a class="btn btn-primary" target="_blank" href="is-tamarack-hard-to-ski.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="image_not_found.jpg?key=QKrxb2" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Who Owns Tamarack Ski Resort?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Tamarack Ski Resort has a rich and fascinating history that dates back several decades. Nestled in the heart of Idaho's West Central Mountains, this resort has become a popular destination for winter sports enthusiasts from all over the world. Its st...</p>
-                            <a class="btn btn-primary" target="_blank" href="who-owns-tamarack-ski-resort.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="image_not_found.jpg?key=fIHh4B" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How Many Slopes Does Tamarack Ski Resort Have?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Tucked away in the picturesque mountains of Idaho, Tamarack Ski Resort boasts an extensive selection of slopes that cater to skiers of all abilities. From beginners looking to master their first turns to seasoned experts seeking an adrenaline-filled ...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-many-slopes-does-tamarack-ski-resort-have.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="image_not_found.jpg?key=4oqRtB" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How Far is Tamarack Ski Resort From Boise Airport?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Tamarack Ski Resort, nestled in the breathtaking Idaho Mountains, is a true hidden gem for ski enthusiasts. With its pristine slopes and stunning natural beauty, this destination offers a unique and unforgettable winter experience. From skiers and sn...</p>
-                            <a class="btn btn-primary" target="_blank" href="now-far-is-tamarack-ski-resort-from-boise-airport.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="image_not_found.jpg?key=usKzIu" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Is Bogus Basin Ski Resort Publicly Owned?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Bogus Basin Ski Resort, nestled in the beautiful Boise National Forest, is owned and operated by Bogus Basin Recreation Association (BBRA). Established in 1942, BBRA is a non-profit organization dedicated to providing affordable outdoor recreational ...</p>
-                            <a class="btn btn-primary" target="_blank" href="is-bogus-basin-ski-resort-publicly-owned.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="image_not_found.jpg?key=aBTTfK" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How Big Is Tamarack Resort?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Nestled amidst the breathtaking beauty of the Payette River Mountains in Idaho, Tamarack Resort offers a vast and captivating landscape waiting to be explored. With over 2,700 acres of pristine wilderness, this resort beckons adventure seekers, natur...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-big-is-tamarack-resort.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="image_not_found.jpg?key=YQy9FC" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Why Is Tamarack Ski Resort The Best Skiing In Idaho?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Nestled in the heart of Idaho's magnificent mountains, Tamarack Ski Resort offers an exhilarating escape for thrill-seekers and adventure enthusiasts alike. With its sprawling slopes and perfectly groomed trails, this winter wonderland promises an un...</p>
-                            <a class="btn btn-primary" target="_blank" href="why-is-tamarack-ski-resort-the-best-skiing-in-idaho.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49700.jpg?key=F1Gqbe" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How much does a ski trip cost per person?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">When planning a ski trip, it is crucial to have a clear understanding of the various expenses involved. While the overall cost can vary depending on factors such as the destination and the level of luxury desired, breaking down the expenses can help ...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-much-does-a-ski-trip-cost-per-person.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49685.jpg?key=JWWp5D" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How do I plan a ski trip with my family?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">One of the first and most exciting decisions travelers must make when planning a ski trip is choosing the destination. With so many incredible ski resorts scattered around the world, it can be quite overwhelming to decide where to go. Each destinatio...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-do-i-plan-a-ski-trip-with-my-family.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49680.jpg?key=A5SBB2" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Where is the cheapest country to learn skiing?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">When it comes to learning how to ski, finding an affordable destination can make a huge difference to your overall experience. Luckily, there are several budget-friendly countries that offer excellent skiing lessons without breaking the bank. One suc...</p>
-                            <a class="btn btn-primary" target="_blank" href="where-is-the-cheapest-country-to-learn-skiing.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49679.jpg?key=ae6MzQ" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How do people afford ski trips?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">One of the first steps when planning a ski trip is understanding the costs involved and assessing your personal financial resources. Ski trips can be expensive, and it's important to have a clear idea of how much you are willing and able to spend. So...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-do-people-afford-ski-trips.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49678.jpg?key=0nwqFL" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How much does an average ski resort cost?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Surrounded by majestic mountain ranges and nestled in the heart of a winter wonderland, the ski resort boasts an enviable location that is sure to inspire awe in visitors. Situated only a short distance from the quaint town center, the resort offers ...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-much-does-an-average-ski-resort-cost.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49677.jpg?key=4oOTqb" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How do people afford to ski with family?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">When planning a ski trip with the whole family, it's important to consider the needs and preferences of each family member. Take into account the skiing abilities of everyone in the family and choose a ski resort that offers a variety of slopes suita...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-do-people-afford-to-ski-with-family.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49676.jpg?key=o0TPsQ" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How do people afford to go skiing?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">When planning a ski trip on a budget, it's important to be strategic in your choices to get the most value for your money. Start by researching and comparing different resorts to find one that offers affordable lift ticket prices and accommodation op...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-do-people-afford-to-go-skiing.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49675.jpg?key=ZbAUZS" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How to book an affordable ski trip?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">When planning a ski trip on a budget, the first step is to set a clear financial goal. Determine how much you are willing and able to spend on the entire trip, factoring in expenses such as transportation, accommodations, ski passes, equipment rental...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-to-book-an-affordable-ski-trip.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49671.jpg?key=vQQFOo" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">What ski pass is good at Sun Valley?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Located in the picturesque state of Idaho, the Sun Valley Ski Resort is renowned for its stunning natural beauty and world-class skiing opportunities. Nestled in the heart of the Rocky Mountains, this resort offers a perfect blend of challenging slop...</p>
-                            <a class="btn btn-primary" target="_blank" href="what-ski-pass-is-good-at-sun-valley.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49670.jpg?key=8vEE35" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">What is the best month to ski Sun Valley?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Located in the heart of Idaho's Sawtooth Mountains, Sun Valley offers an exceptional skiing experience during its prime season. With its renowned slopes and breathtaking scenery, this winter wonderland attracts snow enthusiasts from around the world....</p>
-                            <a class="btn btn-primary" target="_blank" href="what-is-the-best-month-to-ski-sun-valley.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49669.jpg?key=3Q0NIP" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Why is Sun Valley so expensive?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Sun Valley's real estate market has experienced significant growth in recent years, attracting buyers and investors from all over the country. This picturesque mountain community, located in the heart of Idaho, offers a unique blend of natural beauty...</p>
-                            <a class="btn btn-primary" target="_blank" href="why-is-sun-valley-so-expensive.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49668.jpg?key=uGJ76a" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How hard is it to ski in Sun Valley?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Located in the heart of Idaho's scenic Wood River Valley, Sun Valley stands as one of North America's premier ski destinations. With its snowy peaks, charming mountain village, and world-class amenities, it attracts skiers and snowboarders from aroun...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-hard-is-it-to-ski-in-sun-valley.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49667.jpg?key=K8E1Dw" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Is Sun Valley worth skiing?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Sun Valley is a haven for skiing enthusiasts, thanks to its spectacular terrain that offers an unbeatable experience. With its breathtaking slopes and diverse landscape, it is no wonder why Sun Valley tops the list of preferred destinations for skier...</p>
-                            <a class="btn btn-primary" target="_blank" href="is-sun-valley-worth-skiing.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49666.jpg?key=hsznIf" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">What is the snowiest mountain in Idaho?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Located in the heart of the Gem State, Idaho's snowiest mountain stands tall and majestic amidst the rugged mountain ranges. Nestled within the remote wilderness, this magnificent peak is known for its abundant snowfall and breathtaking scenery. It l...</p>
-                            <a class="btn btn-primary" target="_blank" href="what-is-the-snowiest-mountain-in-idaho.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49665.jpg?key=uX2L7D" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Is McCall Idaho a ski town?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Nestled in the heart of Idaho's scenic mountain ranges, McCall is a true hidden gem for winter sports enthusiasts. With its breathtaking natural beauty and a plethora of thrilling winter attractions, this charming town offers a perfect getaway for th...</p>
-                            <a class="btn btn-primary" target="_blank" href="is-mccall-idaho-a-ski-town.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49664.jpg?key=wxH4WE" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">What is so special about Sun Valley Idaho?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">With a rich history dating back to the early 20th century, this picturesque mountain town has deep roots in Hollywood glamour. Known as a favorite retreat for the stars of the silver screen, it has been a playground for the rich and famous for decade...</p>
-                            <a class="btn btn-primary" target="_blank" href="what-is-so-special-about-sun-valley-idaho.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49663.jpg?key=yfqx16" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Is there skiing in Sun Valley?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Sun Valley, located in the picturesque state of Idaho, stands as one of the premier ski resorts in the region. Nestled amidst the stunning Sawtooth Mountains, this mountainous paradise offers a world-class skiing experience that attracts outdoor enth...</p>
-                            <a class="btn btn-primary" target="_blank" href="is-there-skiing-in-sun-valley.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49662.jpg?key=7Lxe76" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Where is the cheapest ski holidays?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">When it comes to planning budget-friendly ski getaways, there are several ideal destinations that offer a great skiing experience without breaking the bank. One such destination is Bansko, located in Bulgaria. Bansko is known for its affordable accom...</p>
-                            <a class="btn btn-primary" target="_blank" href="where-is-the-cheapest-ski-holidays.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49661.jpg?key=jMgqB9" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How to afford a ski pass?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Skiing can be an exhilarating and enjoyable outdoor activity, but it's important to understand the cost of a ski pass before hitting the slopes. The cost of a ski pass can vary depending on various factors such as location, resort, and duration. It i...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-to-afford-a-ski-pass-1.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49660.jpg?key=f6C2vw" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How to afford a ski pass?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Skiing can be an exhilarating and enjoyable winter activity, but the cost of ski passes can often be a deterrent for some individuals. However, there are various options available that can make ski passes more affordable and accessible for everyone. ...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-to-afford-a-ski-pass.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49659.jpg?key=pVTb9Q" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Is Sun Valley Idaho on Epic Pass?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">With winter sports gaining popularity around the world, many adventure seekers are turning to the Epic Pass as their go-to option for getting on the slopes. But what exactly is the Epic Pass? In simple terms, it is a season pass that grants skiers an...</p>
-                            <a class="btn btn-primary" target="_blank" href="is-sun-valley-idaho-on-epic-pass.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49658.jpg?key=yynwhQ" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">What are the two main ski passes?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Ski passes come in various types, each offering different benefits and privileges. The most common type is the single-day pass, which allows skiers to access the slopes for one full day of skiing. This option is ideal for occasional skiers who only p...</p>
-                            <a class="btn btn-primary" target="_blank" href="what-are-the-two-main-ski-passes.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49657.jpg?key=LF27W0" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How hard is Schweitzer Mountain?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Schweitzer Mountain offers a wide range of terrain, catering to skiers and snowboarders of all skill levels. From gentle slopes for beginners to challenging runs for advanced enthusiasts, there is something for everyone. The resort is known for its d...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-hard-is-schweitzer-mountain.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49656.jpg?key=dSvsLu" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">What is the closest town to Schweitzer Mountain?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Located in the northern part of Idaho, Sandpoint is a charming town that offers a delightful mix of natural beauty, small-town charm, and a vibrant arts scene. Nestled on the shores of Lake Pend Oreille, the town boasts breathtaking mountain views an...</p>
-                            <a class="btn btn-primary" target="_blank" href="what-is-the-closest-town-to-schweitzer-mountain.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49655.jpg?key=P1stu0" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Is Schweitzer ski resort good for beginners?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Schweitzer Ski Resort, nestled in the breathtaking Selkirk Mountains of Idaho, is a premier winter destination for ski enthusiasts of all levels. With over 2,900 acres of skiable terrain and an annual average snowfall of 300 inches, this resort offer...</p>
-                            <a class="btn btn-primary" target="_blank" href="is-schweitzer-ski-resort-good-for-beginners.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49654.jpg?key=8ClnAT" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How many ski runs does Schweitzer have?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">For avid skiers, Schweitzer Mountain Resort is nothing short of a paradise. Nestled in the picturesque Selkirk Mountains of Idaho, this resort offers an exceptional skiing experience that keeps enthusiasts coming back year after year. With an average...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-many-ski-runs-does-schweitzer-have.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49653.jpg?key=BLR1XJ" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Does Idaho have any ski resorts?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Idaho's ski resorts offer a winter wonderland for adventure seekers. With its majestic mountain ranges and abundant snowfall, the state has become a prime destination for those seeking thrilling experiences on the slopes. From beginners to advanced s...</p>
-                            <a class="btn btn-primary" target="_blank" href="does-idaho-have-any-ski-resorts.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49652.jpg?key=NOp9dD" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Does Boise have good skiing?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Deep in the heart of the Pacific Northwest lies a hidden snowy gem waiting to be discovered. With its pristine landscapes and world-class ski resorts, this region offers a winter experience like no other. From glistening white slopes to breathtaking ...</p>
-                            <a class="btn btn-primary" target="_blank" href="does-boise-have-good-skiing.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49651.jpg?key=J4fstH" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How far is Boise from ski resort?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">When it comes to winter adventures, Boise offers a unique advantage with its proximity to numerous ski resorts. Located within a short driving distance, city dwellers and visitors alike can easily escape the confines of urban life and embrace the sno...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-far-is-boise-from-ski-resort.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49650.jpg?key=6g213K" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Is Sun Valley Idaho good for beginners?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Sun Valley, Idaho, nestled in the picturesque Rocky Mountains, has emerged as a haven for novice outdoor enthusiasts seeking to embark on their first adventure. With its breathtaking scenery and a wide array of outdoor activities, this charming desti...</p>
-                            <a class="btn btn-primary" target="_blank" href="is-sun-valley-idaho-good-for-beginners.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49649.jpg?key=Q8tqhE" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Where is the best place to go skiing for beginners?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Skiing is an exhilarating sport that attracts people of all ages and skill levels. However, when it comes to beginners, understanding their needs and requirements is crucial. Beginner skiers are generally new to the sport, and thus require a friendly...</p>
-                            <a class="btn btn-primary" target="_blank" href="where-is-the-best-place-to-go-skiing-for-beginners.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49648.jpg?key=KADrBZ" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Why is Sun Valley Idaho famous?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Sun Valley has earned its reputation as a skier's paradise, attracting winter sports enthusiasts from across the globe. With its world-class ski slopes and a rich skiing heritage, it is no wonder that this destination has become synonymous with excep...</p>
-                            <a class="btn btn-primary" target="_blank" href="why-is-sun-valley-idaho-famous.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49647.jpg?key=JEGsva" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Is Sun Valley difficult to ski?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Sun Valley, known for its world-class skiing, offers a multitude of challenges for both novice and expert skiers alike. One of the primary difficulties faced by skiers in Sun Valley is the steepness of the slopes. With an average vertical drop of 3,4...</p>
-                            <a class="btn btn-primary" target="_blank" href="is-sun-valley-difficult-to-ski.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49646.jpg?key=0JNFmQ" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">What is the main ski resort in Sun Valley?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Sun Valley Ski Resort, nestled in the picturesque surroundings of Idaho's Wood River Valley, has a rich history that dates back to the early 20th century. The idea for the resort was conceived by W. Averell Harriman, the Union Pacific Railroad chairm...</p>
-                            <a class="btn btn-primary" target="_blank" href="what-is-the-main-ski-resort-in-sun-valley.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49645.jpg?key=6CKgao" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">What celebrities ski at Sun Valley?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Sun Valley has long been a preferred destination for celebrities looking to hit the slopes and indulge in some wintertime fun. The resort's beautiful scenery, world-class skiing, and luxurious amenities make it an ideal getaway for the rich and famou...</p>
-                            <a class="btn btn-primary" target="_blank" href="what-celebrities-ski-at-sun-valley.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49644.jpg?key=SLlbpF" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Where is the best snow in Idaho?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Idaho is a winter wonderland, offering a plethora of snowy gems for outdoor enthusiasts to explore. From majestic mountains to serene Nordic trails, the state is a haven for winter sports and recreation. Whether you're a skier, snowboarder, or simply...</p>
-                            <a class="btn btn-primary" target="_blank" href="where-is-the-best-snow-in-idaho.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49643.jpg?key=n4VZ4D" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">What is the big ski resort in Idaho?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Idaho's Premier Ski Destination offers an unparalleled experience for winter sports enthusiasts. Nestled amidst the breathtaking beauty of the Rocky Mountains, this ski resort boasts a wide range of slopes and trails suitable for all skill levels. Fr...</p>
-                            <a class="btn btn-primary" target="_blank" href="what-is-the-big-ski-resort-in-idaho.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49642.jpg?key=Gw1MgA" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How much does snow ski trip cost?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">When planning your snow ski trip, it is important to have a comprehensive breakdown of costs to ensure that you stay within your budget. The first expense to consider is the cost of transportation. Whether you choose to drive, fly, or take a train, m...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-much-does-snow-ski-trip-cost.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49641.jpg?key=bcHike" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">What is the cheapest month to go skiing?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">If you're a budget traveler looking to hit the slopes, timing your ski trip right can make a huge difference in terms of cost. One of the keys to finding the cheapest month to go skiing is to avoid the peak holiday seasons. During these times, ski re...</p>
-                            <a class="btn btn-primary" target="_blank" href="what-is-the-cheapest-month-to-go-skiing.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49640.jpg?key=aHRBpG" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How much does it cost to ski in Idaho?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Lift ticket prices at Idaho ski resorts can vary depending on the time of year and the specific resort. Generally, ticket prices are higher during peak season, which is typically between December and February when the slopes are bustling with skiers ...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-much-does-it-cost-to-ski-in-idaho.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49639.jpg?key=rzMDjU" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">What is the largest ski resort in Idaho?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">The snow-capped mountains of Idaho have long been a haven for winter sports enthusiasts. And now, the state is about to become an even more sought-after destination for skiers and snowboarders alike, with the unveiling of its largest ski resort. Nest...</p>
-                            <a class="btn btn-primary" target="_blank" href="what-is-the-largest-ski-resort-in-idaho.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49638.jpg?key=UC8X8E" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">What is the name of the famous ski resort in Idaho?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Skiing has a long and rich history in Idaho, dating back to the late 1800s. Early pioneers and settlers in the state were quick to recognize the potential for winter sports in the region's snowy peaks and rugged landscapes. The first recorded evidenc...</p>
-                            <a class="btn btn-primary" target="_blank" href="what-is-the-name-of-the-famous-ski-resort-in-idaho.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49637.jpg?key=IUTNmX" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">What month is best for skiing in Idaho?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Idaho's skiing season offers a thrilling adventure for winter enthusiasts seeking an adrenaline rush on the slopes. With its abundant snowfall and breathtaking mountain scenery, it's no wonder that Idaho is a top destination for skiing. Whether you'r...</p>
-                            <a class="btn btn-primary" target="_blank" href="what-month-is-best-for-skiing-in-idaho.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49636.jpg?key=wdXpsM" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">How many ski resorts are in Idaho?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Idaho is renowned for its picturesque landscapes, making it an ideal destination for skiing enthusiasts. Nestled amongst the breathtaking mountains, Idaho boasts a wide array of ski resorts that cater to both beginners and experienced skiers. Whether...</p>
-                            <a class="btn btn-primary" target="_blank" href="how-many-ski-resorts-are-in-idaho.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49635.jpg?key=ntuv7m" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">What is the biggest ski resort in Idaho?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Idaho's Premier Ski Destination offers an unparalleled winter experience for enthusiasts seeking an unforgettable adventure on the slopes. Nestled within the breathtaking landscapes of this mountainous state, Idaho's premier ski resorts boast excepti...</p>
-                            <a class="btn btn-primary" target="_blank" href="what-is-the-biggest-ski-resort-in-idaho.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><section >
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="49633.jpg?key=TqGtJf" alt="Idaho Skiing" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Does Idaho have good skiing?</h2>
-                            <div class="small text-muted">Susan</div>
-                             <div class="small text-muted"></div>
-                             <p class="card-text">Idaho boasts a wide range of ski resorts, each offering a unique experience for winter sports enthusiasts. From the vast wilderness of Sun Valley to the charming appeal of Schweitzer Mountain, there is something for everyone in this picturesque state...</p>
-                            <a class="btn btn-primary" target="_blank" href="does-idaho-have-good-skiing.html">Read more ?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <div class="copyright text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
-<div class="container ql-editor mb-4" style="display:none">
-    
-</div>
-<div class="py-5 bg-gray-200 text-muted">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mb-5 mb-lg-0">
-                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
-                    <a href="terms.html">Terms of Use</a> | <a href="privacy.html">Privacy Policy</a>
-                </div>
-
-                <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
-                    
-                </div>
-
-            </div>
-            <div class="col-lg-4">
-                <h6 style=" display: inherit" class="text-uppercase text-dark mb-3">
-                    <a href="sitemap.html">Sitemap</a> | <a href="contact.html">Contact Idaho Skiing</a>
-                </h6>
-
-                <h6 style=" display: inherit" class="text-uppercase text-dark mb-3">
-
-                </h6>
-
-            </div>
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            © Copyright 2025<strong><span>Idaho Skiing</span></strong>. All Rights Reserved
+          </div>
+         
         </div>
+
+       
+
+      </div>
     </div>
-</div>
-<!-- Footer-->
-<footer class="py-5 bg-footer text-center footer-text-color">
-    <div class="container mb-4 ql-editor" id="sitewide-footer" style="display:none">
-        
-    </div>
-    <div class="container mb-4">
-    <a href="https://idaho-skiing.com" style="text-decoration: none;">
-    <p class="m-0 text-center ">
-        <span class="navbar-brand" ><img style="max-height:30px; height: 30px !important; display: none " src="" onerror="this.remove()"></span>
-        <span class="navbar-brand">Idaho Skiing</span>
-    </p>
-    </a>
-    </div>
-    <ul class="list-inline mb-4" style="display: none">
-        <li class="list-inline-item" style="display: none">
-            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-facebook"></i></a>
-        </li>
-        <li class="list-inline-item"  style="display: none">
-            <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-twitter"></i></a>
-        </li>
-        <li class="list-inline-item"  style="display: none">
-            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a>
-        </li>
-        <li class="list-inline-item"  style="display: none">
-            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a>
-        </li>
-        <li class="list-inline-item"  style="display: none">
-            <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a>
-        </li>
-    </ul>
-    <div class="container"><p class="m-0 text-center">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Idaho Skiing. All rights reserved.</p></div>
-</footer>
-<!-- Bootstrap core JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
-<script src="js/scripts.js"></script>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
